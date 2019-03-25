@@ -34,7 +34,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'neighbor',
+    'neighborhood',
     'bootstrap4'
 ]
 
@@ -75,7 +75,7 @@ WSGI_APPLICATION = 'hood.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'hood',
+        'NAME': 'hooders',
         'USER': 'moringaschool',
     'PASSWORD':'37472377',
     }
